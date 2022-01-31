@@ -882,7 +882,7 @@ declare namespace SendBird {
     nickname: string;
     profileUrl: string;
     plainProfileUrl: string;
-    metaData: Object;
+    metaData: Record<string, any>;
     connectionStatus: string;
     lastSeenAt: string;
     isActive: boolean;
